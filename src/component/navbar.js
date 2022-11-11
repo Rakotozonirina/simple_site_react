@@ -4,7 +4,10 @@ import image from '../images/logo192.png'
 export default function Nav(){
     return(
         <nav>
-            <img src={image} className="logo" alt="The logo"/>
+            <div className='content-logo_title'>
+                <img src={image} className="logo" alt="The logo"/>
+                <h2>ReactFacts</h2>
+            </div>
         </nav>
     )
 }

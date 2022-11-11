@@ -11,10 +11,20 @@ nav{
     align-items: center;
     justify-content: flex-start;
 }
+nav div.content-logo_title{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 body{
     background-color: #777;
 }
 .logo{
     width: 3rem;
     height: 3rem;
+}
+h2{
+    color: white;
+    font-family: system-ui, sans-serif;
 }
