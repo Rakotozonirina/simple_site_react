@@ -2,7 +2,9 @@ import React from 'react'
 import '../index.css'
 export default function Main() {
     return(
-        <div className='content-main'>
+        <div className='content_main'>
+            <div className='empty'></div>
+            <div className='content_ul'>
             <ul>
                 <li>Was first realesed in 2013</li>
                 <li>Was Originally created by Jordan Walke</li>
@@ -10,6 +12,7 @@ export default function Main() {
                 <li>is maintained by Facebook</li>
                 <li>Powers thousands of entreprise apps, including mobile apps</li>
             </ul>
+            </div>
         </div>
     )
 }
