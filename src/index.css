@@ -59,9 +59,11 @@ div.content-main{
 }
 div.content-main ul{
     margin: 0rem 5rem;
+    list-style: none url("./images/circle\ custom\ list.png");
 }
 div.content-main ul li{
     font-size: 200%;
     font-family: system-ui, sans-serif;
     color: #eee3e3;
+    margin: 1rem 2rem;
 }
