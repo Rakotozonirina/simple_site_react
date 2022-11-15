@@ -11,6 +11,7 @@ export default function Main() {
                 <li>Has well over 100k stars on Github</li>
                 <li>is maintained by Facebook</li>
                 <li>Powers thousands of entreprise apps, including mobile apps</li>
+                <li>RAKOTOMANANA Andriamihaja Zo Nirina</li>
             </ul>
             </div>
         </div>
