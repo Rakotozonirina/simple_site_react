@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple_site_react/static/css/main.e5cca044.css",
+    "main.js": "/simple_site_react/static/js/main.324cfaec.js",
+    "index.html": "/simple_site_react/index.html",
+    "main.e5cca044.css.map": "/simple_site_react/static/css/main.e5cca044.css.map",
+    "main.324cfaec.js.map": "/simple_site_react/static/js/main.324cfaec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5cca044.css",
+    "static/js/main.324cfaec.js"
+  ]
+}
