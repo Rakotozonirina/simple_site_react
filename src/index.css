@@ -63,13 +63,16 @@ div.content_main div.empty{
 }
 div.content_main div.content_ul ul{
     margin: 0rem 5rem;
-    list-style: none url("./images/circle\ custom\ list.png");
 }
 div.content_main div.content_ul ul li{
     font-size: 130%;
     font-family: system-ui, sans-serif;
     margin: 1rem 2rem;
     color: #eee3e3;
+}
+div.content_main div.content_ul ul li::marker{
+    font-size: 2rem;
+    color: rgb(154, 241, 241);
 }
 @media screen and (min-width: 45em){
     nav{
@@ -138,12 +141,15 @@ div.content_main div.content_ul ul li{
     }
     div.content_main div.content_ul ul{
         margin: 3rem 5rem;
-        list-style: none url("./images/circle\ custom\ list.png");
     }
     div.content_main div.content_ul ul li{
         font-size: 150%;
         font-family: system-ui, sans-serif;
         margin: 1rem 2rem;
         color: #eee3e3;
+    }
+    div.content_main div.content_ul ul li::marker{
+        font-size: 2rem;
+        color: rgb(154, 241, 241);
     }
 }
