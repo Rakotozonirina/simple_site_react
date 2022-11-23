@@ -4,6 +4,6 @@ import '../index.css'
 
 export default function ContentPhoto(){
     return(
-        <img src={Image} alt='My profile'/>
+        <img src={Image} alt='My profile' height='200rem'/>
     )
 }
