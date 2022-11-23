@@ -15,6 +15,11 @@ div > main{
     background-color: #777;
     border-radius: 12px;
 }
+img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
 @media screen and (min-width: 30rem){
     div{
         width: 100%;
@@ -29,6 +34,11 @@ div > main{
         background-color: #777;
         border-radius: 12px;
     }
+    img{
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
 }
 @media screen and (max-height: 40rem){
     div > main{
@@ -36,5 +46,10 @@ div > main{
         height: 30rem;
         background-color: #777;
         border-radius: 12px;
+    }
+    img{
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
     }
 }
