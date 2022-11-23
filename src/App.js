@@ -1,9 +1,8 @@
 import React from 'react'
+import Main from './component/main'
 
 export default function App() {
     return(
-        <>
-        <h1>Hello</h1>
-        </>
+        <Main></Main>
     )
 }
