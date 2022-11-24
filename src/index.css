@@ -17,6 +17,7 @@ div > main{
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
 img{
+    width: 100%;
     max-inline-size: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -41,6 +42,7 @@ img{
         max-inline-size: 100%;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
+        width: 100%;
         display: block;
     }
 }
@@ -56,6 +58,7 @@ img{
         max-inline-size: 100%;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
+        width: 100%;
         display: block;
     }
 }
