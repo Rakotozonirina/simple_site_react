@@ -23,6 +23,23 @@ img{
     border-top-right-radius: 12px;
     display: block;
 }
+.contenus{
+    width: 100%;
+    height: 6rem;
+    padding: 1.5rem 0rem;
+}
+h2{
+    font-family: 'Rancho' ,serif;
+    color: #fff;
+    font-size: 150%;
+    opacity: 0.8;
+}
+.contenus p{
+    font-family: 'Rancho', serif;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 130%;
+}
 @media screen and (min-width: 30rem){
     div{
         width: 100%;
