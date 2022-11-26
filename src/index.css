@@ -26,19 +26,24 @@ img{
 .contenus{
     width: 100%;
     height: 6rem;
-    padding: 1.5rem 0rem;
+    font-size: 16px;
+    display: grid;
+    justify-content: start;
+    align-content: space-around;
 }
 h2{
     font-family: 'Rancho' ,serif;
     color: #fff;
-    font-size: 150%;
+    font-size: 130%;
     opacity: 0.8;
+    margin: 0rem 1rem;
 }
 .contenus p{
     font-family: 'Rancho', serif;
     color: #fff;
     opacity: 0.8;
-    font-size: 130%;
+    font-size: 100%;
+    margin: 0rem 1rem;
 }
 @media screen and (min-width: 30rem){
     div{
