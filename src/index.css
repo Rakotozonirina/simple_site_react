@@ -45,6 +45,57 @@ h2{
     font-size: 100%;
     margin: 0rem 1rem;
 }
+.contenus_buttons{
+    width: 100%;
+    height: 3rem;
+}
+.button{
+    font-family: inherit;
+    background: #eb8448;
+    color: white;
+    padding: 0.35em 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 2.8em;
+    padding-right: 0.9em;
+    cursor: pointer;
+}
+.button .icon {
+    background: #fff;
+    height: 1.6em;
+    width: 1.6em;
+    border-radius: 1.6em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.4em;
+    transition: all 0.5s;
+}
+.icon svg {
+    transition: all 0.5s;
+    fill: #777;
+    width: 1rem;
+    height: 1rem;
+}
+.button:hover .icon svg {
+    transform: rotate(360deg);
+}
+.button:hover .icon {
+    width: calc(100% - 0.85rem);
+    border-radius: 0.5em;
+}
+button.button p{
+    font-family: 'Rancho', serif;
+}
 @media screen and (min-width: 30rem){
     div{
         width: 100%;
