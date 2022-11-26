@@ -4,6 +4,7 @@ import ContentPhoto from "./content_photo"
 import Heading from "./content_heading"
 import Button from "./button"
 import Concern from "./concern"
+import Icons from "./content_icons"
 export default function Main() {
     return(
         <div>
@@ -12,6 +13,7 @@ export default function Main() {
                 <Heading></Heading>
                 <Button></Button>
                 <Concern></Concern>
+                <Icons></Icons>
             </main>
         </div>
     )
