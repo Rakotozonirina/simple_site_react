@@ -7,7 +7,6 @@ import Concern from "./concern"
 import Icons from "./content_icons"
 export default function Main() {
     return(
-        <div>
             <main>
                 <ContentPhoto></ContentPhoto>
                 <Heading></Heading>
@@ -15,6 +14,5 @@ export default function Main() {
                 <Concern></Concern>
                 <Icons></Icons>
             </main>
-        </div>
     )
 }
