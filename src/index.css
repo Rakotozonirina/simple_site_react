@@ -5,11 +5,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-section.hero{
-    width: 100%;
-    height: 25rem;
-    margin: 2rem 0rem;
-}
+
 section.hero img{
     max-inline-size: 100%;
     block-size: auto;
@@ -36,6 +32,21 @@ section.hero img{
     nav a p{
         color: rgb(235, 39, 39);
     }
+    section.hero{
+        width: 100%;
+        height: 65rem;
+        margin: 2rem 0rem;
+    }
+    section.hero div{
+        padding: 0em 6em;
+    }
+    section.hero div p:nth-child(1){
+        font-weight: 700;
+        font-size: 250%;
+    }
+    section.hero div p:nth-child(2){
+        white-space: normal;
+    }
 }
 @media (orientation: portrait) {
     nav{
@@ -59,5 +70,21 @@ section.hero img{
     nav a p{
         color: rgb(235, 39, 39);
         margin: 1.5em 0em;
+    }
+    section.hero{
+        width: 100%;
+        height: 30rem;
+        margin: 2rem 0rem;
+    }
+    section.hero div{
+        padding: 0em 2em;
+    }
+    section.hero div p:nth-child(1){
+        font-weight: 700;
+        font-size: 150%;
+    }
+    section.hero div p:nth-child(2){
+        white-space: normal;
+        font-size: 90%;
     }
 }
