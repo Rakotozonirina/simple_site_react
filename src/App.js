@@ -8,7 +8,13 @@ export default function App() {
         <>
             <Nav/>
             <Hero/>
-            <Card/>
+            <div className='content--card'>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
         </>
     )
 }

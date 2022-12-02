@@ -47,10 +47,18 @@ section.hero img{
     section.hero div p:nth-child(2){
         white-space: normal;
     }
+    div.content--card{
+        overflow-x: scroll;
+        white-space: nowrap;
+        display: flex;
+        width: 100%;
+        height: 32rem;
+    }
     div.card{
         width: 21rem;
         height: 29rem;
         font-size: 14px;
+        margin: 0rem 1rem;
     }
     div.card img.image--card{
         width: 100%;
