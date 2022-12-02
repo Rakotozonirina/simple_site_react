@@ -47,6 +47,40 @@ section.hero img{
     section.hero div p:nth-child(2){
         white-space: normal;
     }
+    div.card{
+        width: 21rem;
+        height: 29rem;
+        font-size: 14px;
+        border: 2px solid darkcyan;
+    }
+    div.card img.image--card{
+        width: 100%;
+        height: 20rem;
+        border-radius: 12px;
+    }
+    div.card div.card--stats{
+        width: 100%;
+        height: 2rem;
+        border: 2px solid darkcyan;
+        display: flex;
+        align-items: center;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    div.card div.card--stats span.gray{
+        color: #918E9B;
+    }
+    div.card div.card--stats svg{
+        width: 1em;
+        height: 1em;
+        fill: rgb(235, 39, 39);
+    }
+    div.card div.card--paragraph{
+        width: 100%;
+        height: 6rem;
+        border: 2px solid darkcyan;
+    }
 }
 @media (orientation: portrait) {
     nav{
