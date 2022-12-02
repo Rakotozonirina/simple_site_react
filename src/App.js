@@ -6,9 +6,9 @@ import Card from './component/card'
 export default function App() {
     return(
         <>
-            <Nav></Nav>
-            <Hero></Hero>
-            <Card></Card>
+            <Nav/>
+            <Hero/>
+            <Card/>
         </>
     )
 }
