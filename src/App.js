@@ -12,6 +12,11 @@ export default function App() {
             <div className='content--card'>
                 <Card
                     img={images.swimming}
+                    rating="5.0"
+                    reviewCount={6}
+                    country="USA"
+                    title="Life lessons with Katie Zaferes"
+                    price={136}
                 />
                 <Card
                     img={images.nature}
