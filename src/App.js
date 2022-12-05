@@ -3,33 +3,27 @@ import '../src/index.css'
 import Nav from './component/nav'
 import Hero from './component/hero'
 import Card from './component/card'
-import images from './component/image'
+import data from './data'
+console.log(data)
 export default function App() {
+    const cards = data.map(item => {
+        return(
+            <Card
+                img={item.coverImg}
+                title={item.title}
+                rating={item.stats.rating}
+                reviewCount={item.stats.reviewCount}
+                location={item.location}
+                price={item.price}
+                />
+        )
+    })
     return(
         <>
             <Nav/>
             <Hero/>
             <div className='content--card'>
-                <Card
-                    img={images.swimming}
-                    rating="5.0"
-                    reviewCount={6}
-                    country="USA"
-                    title="Life lessons with Katie Zaferes"
-                    price={136}
-                />
-                <Card
-                    img={images.nature}
-                />
-                <Card
-                    img={images.tree}
-                />
-                <Card
-                    img={images.foggy}
-                />
-                <Card 
-                    img={images.landscape}
-                />
+                {cards}
             </div>
         </>
     )
