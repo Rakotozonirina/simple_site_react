@@ -63,5 +63,31 @@ export default [
         },
         location:"MAD",
         openSpots: 3,
+    },
+    {
+        id:"6",
+        title:"A man swimming",
+        description:"I am happy to swimming cause it's give me a feel better",
+        price: 136,
+        coverImg: image.swimming,
+        stats:{
+            rating: 4.8,
+            reviewCount: 2
+        },
+        location:"USA",
+        openSpots: 3,
+    },
+    {
+        id:"6",
+        title:"The nature",
+        description:"I am happy to swimming cause it's give me a feel better",
+        price: 200,
+        coverImg: image.nature,
+        stats:{
+            rating: 3,
+            reviewCount: 2
+        },
+        location:"Brasil",
+        openSpots: 3,
     }
 ]
