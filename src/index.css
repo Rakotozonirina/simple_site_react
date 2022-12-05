@@ -128,7 +128,6 @@ section.hero img{
         font-size: 90%;
     }
     div.content--card{
-        overflow: hidden;
         display: flex;
         flex-direction: column;
         width: 100%;
