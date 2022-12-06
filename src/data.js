@@ -11,7 +11,7 @@ export default [
             reviewCount: 2
         },
         location:"USA",
-        openSpots: 3,
+        openSpots: 0,
     },{
         id:"2",
         title:"The nature",
@@ -36,7 +36,7 @@ export default [
             reviewCount: 2
         },
         location:"Nerland",
-        openSpots: 3,
+        openSpots: 0,
     },
     {
         id:"4",
@@ -62,7 +62,7 @@ export default [
             reviewCount: 2
         },
         location:"MAD",
-        openSpots: 3,
+        openSpots: 0,
     },
     {
         id:"6",
@@ -75,7 +75,7 @@ export default [
             reviewCount: 2
         },
         location:"USA",
-        openSpots: 3,
+        openSpots: 0,
     },
     {
         id:"6",
@@ -87,7 +87,7 @@ export default [
             rating: 3,
             reviewCount: 2
         },
-        location:"Brasil",
+        location:"Online",
         openSpots: 3,
     },
     {
@@ -100,8 +100,8 @@ export default [
             rating: 5,
             reviewCount: 2
         },
-        location:"Nerland",
-        openSpots: 3,
+        location:"Rus",
+        openSpots: 0,
     },
     {
         id:"8",
@@ -113,7 +113,7 @@ export default [
             rating: 4,
             reviewCount: 2
         },
-        location:"Rus",
+        location:"Online",
         openSpots: 3,
     }
 ]
