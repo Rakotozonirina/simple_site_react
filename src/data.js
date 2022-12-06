@@ -89,5 +89,31 @@ export default [
         },
         location:"Brasil",
         openSpots: 3,
+    },
+    {
+        id:"7",
+        title:"the forest amazing in the world",
+        description:"I am happy to swimming cause it's give me a feel better",
+        price: 250,
+        coverImg: image.tree,
+        stats:{
+            rating: 5,
+            reviewCount: 2
+        },
+        location:"Nerland",
+        openSpots: 3,
+    },
+    {
+        id:"8",
+        title:"the foggy",
+        description:"I am happy to swimming cause it's give me a feel better",
+        price: 48,
+        coverImg: image.foggy,
+        stats:{
+            rating: 4,
+            reviewCount: 2
+        },
+        location:"Rus",
+        openSpots: 3,
     }
 ]
